@@ -16,6 +16,18 @@
 		8DC3D6B628A8EFB6003AA7EB /* Employees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6B528A8EFB6003AA7EB /* Employees.swift */; };
 		8DC3D6B928A8F034003AA7EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6B828A8F034003AA7EB /* Constants.swift */; };
 		8DC3D6BB28A8F15C003AA7EB /* EmployeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6BA28A8F15C003AA7EB /* EmployeeListViewModel.swift */; };
+		8DC3D6BD28A8F51B003AA7EB /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6BC28A8F51B003AA7EB /* UIView+Extensions.swift */; };
+		8DC3D6BF28A8F8F5003AA7EB /* EmployeeListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6BE28A8F8F5003AA7EB /* EmployeeListDataSource.swift */; };
+		8DC3D6C128A8F941003AA7EB /* Employee+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6C028A8F941003AA7EB /* Employee+CoreData.swift */; };
+		8DC3D6C428A8FAAE003AA7EB /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6C328A8FAAE003AA7EB /* EmployeeTableViewCell.swift */; };
+		8DC3D6C628A8FB5B003AA7EB /* UIView+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6C528A8FB5B003AA7EB /* UIView+Builder.swift */; };
+		8DC3D6C828A9014A003AA7EB /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6C728A9014A003AA7EB /* Employee+CoreDataProperties.swift */; };
+		8DC3D6CA28A905DC003AA7EB /* EmployeeListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6C928A905DC003AA7EB /* EmployeeListRouter.swift */; };
+		8DC3D6CC28A90622003AA7EB /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6CB28A90622003AA7EB /* AppData.swift */; };
+		8DC3D6CE28A90683003AA7EB /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6CD28A90683003AA7EB /* NetworkServices.swift */; };
+		8DC3D6D028A912AF003AA7EB /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6CF28A912AF003AA7EB /* UIStackView+Extensions.swift */; };
+		8DC3D6D228A93077003AA7EB /* Data+Extensoins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6D128A93077003AA7EB /* Data+Extensoins.swift */; };
+		8DC3D6D428A9388F003AA7EB /* CoreData+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6D328A9388F003AA7EB /* CoreData+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +42,18 @@
 		8DC3D6B528A8EFB6003AA7EB /* Employees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employees.swift; sourceTree = "<group>"; };
 		8DC3D6B828A8F034003AA7EB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8DC3D6BA28A8F15C003AA7EB /* EmployeeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewModel.swift; sourceTree = "<group>"; };
+		8DC3D6BC28A8F51B003AA7EB /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		8DC3D6BE28A8F8F5003AA7EB /* EmployeeListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListDataSource.swift; sourceTree = "<group>"; };
+		8DC3D6C028A8F941003AA7EB /* Employee+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreData.swift"; sourceTree = "<group>"; };
+		8DC3D6C328A8FAAE003AA7EB /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
+		8DC3D6C528A8FB5B003AA7EB /* UIView+Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Builder.swift"; sourceTree = "<group>"; };
+		8DC3D6C728A9014A003AA7EB /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8DC3D6C928A905DC003AA7EB /* EmployeeListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListRouter.swift; sourceTree = "<group>"; };
+		8DC3D6CB28A90622003AA7EB /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		8DC3D6CD28A90683003AA7EB /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		8DC3D6CF28A912AF003AA7EB /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
+		8DC3D6D128A93077003AA7EB /* Data+Extensoins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensoins.swift"; sourceTree = "<group>"; };
+		8DC3D6D328A9388F003AA7EB /* CoreData+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreData+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +127,8 @@
 		8DC3D6B128A8EF0E003AA7EB /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8DC3D6CB28A90622003AA7EB /* AppData.swift */,
+				8DC3D6CD28A90683003AA7EB /* NetworkServices.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -110,6 +136,11 @@
 		8DC3D6B228A8EF1F003AA7EB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				8DC3D6BC28A8F51B003AA7EB /* UIView+Extensions.swift */,
+				8DC3D6D328A9388F003AA7EB /* CoreData+Extensions.swift */,
+				8DC3D6C528A8FB5B003AA7EB /* UIView+Builder.swift */,
+				8DC3D6CF28A912AF003AA7EB /* UIStackView+Extensions.swift */,
+				8DC3D6D128A93077003AA7EB /* Data+Extensoins.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -117,9 +148,12 @@
 		8DC3D6B328A8EF7A003AA7EB /* EmployeeList */ = {
 			isa = PBXGroup;
 			children = (
-				8DC3D6B428A8EF94003AA7EB /* Model */,
 				8D7F9DDF28A8EA470093B793 /* EmployeeListViewController.swift */,
 				8DC3D6BA28A8F15C003AA7EB /* EmployeeListViewModel.swift */,
+				8DC3D6BE28A8F8F5003AA7EB /* EmployeeListDataSource.swift */,
+				8DC3D6C928A905DC003AA7EB /* EmployeeListRouter.swift */,
+				8DC3D6C228A8FA9A003AA7EB /* Components */,
+				8DC3D6B428A8EF94003AA7EB /* Model */,
 			);
 			path = EmployeeList;
 			sourceTree = "<group>";
@@ -128,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				8DC3D6B528A8EFB6003AA7EB /* Employees.swift */,
+				8DC3D6C028A8F941003AA7EB /* Employee+CoreData.swift */,
+				8DC3D6C728A9014A003AA7EB /* Employee+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -138,6 +174,14 @@
 				8DC3D6B828A8F034003AA7EB /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8DC3D6C228A8FA9A003AA7EB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3D6C328A8FAAE003AA7EB /* EmployeeTableViewCell.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,11 +255,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D7F9DE028A8EA470093B793 /* EmployeeListViewController.swift in Sources */,
+				8DC3D6BF28A8F8F5003AA7EB /* EmployeeListDataSource.swift in Sources */,
+				8DC3D6C828A9014A003AA7EB /* Employee+CoreDataProperties.swift in Sources */,
+				8DC3D6D228A93077003AA7EB /* Data+Extensoins.swift in Sources */,
 				8D7F9DDC28A8EA470093B793 /* AppDelegate.swift in Sources */,
+				8DC3D6CC28A90622003AA7EB /* AppData.swift in Sources */,
 				8DC3D6B628A8EFB6003AA7EB /* Employees.swift in Sources */,
 				8D7F9DDE28A8EA470093B793 /* SceneDelegate.swift in Sources */,
+				8DC3D6D028A912AF003AA7EB /* UIStackView+Extensions.swift in Sources */,
 				8D7F9DE628A8EA470093B793 /* Avito_Tech_iOS.xcdatamodeld in Sources */,
+				8DC3D6C428A8FAAE003AA7EB /* EmployeeTableViewCell.swift in Sources */,
+				8DC3D6CA28A905DC003AA7EB /* EmployeeListRouter.swift in Sources */,
 				8DC3D6BB28A8F15C003AA7EB /* EmployeeListViewModel.swift in Sources */,
+				8DC3D6BD28A8F51B003AA7EB /* UIView+Extensions.swift in Sources */,
+				8DC3D6C128A8F941003AA7EB /* Employee+CoreData.swift in Sources */,
+				8DC3D6C628A8FB5B003AA7EB /* UIView+Builder.swift in Sources */,
+				8DC3D6CE28A90683003AA7EB /* NetworkServices.swift in Sources */,
+				8DC3D6D428A9388F003AA7EB /* CoreData+Extensions.swift in Sources */,
 				8DC3D6B928A8F034003AA7EB /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +419,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,6 +448,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

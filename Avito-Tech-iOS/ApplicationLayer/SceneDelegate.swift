@@ -22,8 +22,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let vm = EmployeeListViewModel()
         let vc = EmployeeListViewController(viewModel: vm)
-        
-        window?.rootViewController = vc
+        let nc = UINavigationController(rootViewController: vc)
+        window?.rootViewController = nc
         window?.makeKeyAndVisible()
     }
 
