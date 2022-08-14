@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		8D7F9DDC28A8EA470093B793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F9DDB28A8EA470093B793 /* AppDelegate.swift */; };
 		8D7F9DDE28A8EA470093B793 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F9DDD28A8EA470093B793 /* SceneDelegate.swift */; };
-		8D7F9DE028A8EA470093B793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F9DDF28A8EA470093B793 /* ViewController.swift */; };
+		8D7F9DE028A8EA470093B793 /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F9DDF28A8EA470093B793 /* EmployeeListViewController.swift */; };
 		8D7F9DE628A8EA470093B793 /* Avito_Tech_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F9DE428A8EA470093B793 /* Avito_Tech_iOS.xcdatamodeld */; };
 		8D7F9DE828A8EA480093B793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7F9DE728A8EA480093B793 /* Assets.xcassets */; };
 		8D7F9DEB28A8EA490093B793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7F9DE928A8EA490093B793 /* LaunchScreen.storyboard */; };
+		8DC3D6B628A8EFB6003AA7EB /* Employees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6B528A8EFB6003AA7EB /* Employees.swift */; };
+		8DC3D6B928A8F034003AA7EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6B828A8F034003AA7EB /* Constants.swift */; };
+		8DC3D6BB28A8F15C003AA7EB /* EmployeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3D6BA28A8F15C003AA7EB /* EmployeeListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D7F9DD828A8EA470093B793 /* Avito-Tech-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avito-Tech-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7F9DDB28A8EA470093B793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D7F9DDD28A8EA470093B793 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D7F9DDF28A8EA470093B793 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D7F9DDF28A8EA470093B793 /* EmployeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewController.swift; sourceTree = "<group>"; };
 		8D7F9DE528A8EA470093B793 /* Avito_Tech_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Avito_Tech_iOS.xcdatamodel; sourceTree = "<group>"; };
 		8D7F9DE728A8EA480093B793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D7F9DEA28A8EA490093B793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D7F9DEC28A8EA490093B793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC3D6B528A8EFB6003AA7EB /* Employees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employees.swift; sourceTree = "<group>"; };
+		8DC3D6B828A8F034003AA7EB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8DC3D6BA28A8F15C003AA7EB /* EmployeeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,82 @@
 		8D7F9DDA28A8EA470093B793 /* Avito-Tech-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8D7F9DDB28A8EA470093B793 /* AppDelegate.swift */,
-				8D7F9DDD28A8EA470093B793 /* SceneDelegate.swift */,
-				8D7F9DDF28A8EA470093B793 /* ViewController.swift */,
-				8D7F9DE728A8EA480093B793 /* Assets.xcassets */,
+				8DC3D6B728A8F022003AA7EB /* Helpers */,
+				8DC3D6AF28A8EEB1003AA7EB /* ApplicationLayer */,
+				8DC3D6B028A8EEF1003AA7EB /* Flows */,
+				8DC3D6B228A8EF1F003AA7EB /* Extensions */,
+				8DC3D6B128A8EF0E003AA7EB /* Services */,
+				8DC3D6AE28A8EE75003AA7EB /* Resources */,
 				8D7F9DE928A8EA490093B793 /* LaunchScreen.storyboard */,
-				8D7F9DEC28A8EA490093B793 /* Info.plist */,
 				8D7F9DE428A8EA470093B793 /* Avito_Tech_iOS.xcdatamodeld */,
 			);
 			path = "Avito-Tech-iOS";
+			sourceTree = "<group>";
+		};
+		8DC3D6AE28A8EE75003AA7EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D7F9DEC28A8EA490093B793 /* Info.plist */,
+				8D7F9DE728A8EA480093B793 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8DC3D6AF28A8EEB1003AA7EB /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8D7F9DDD28A8EA470093B793 /* SceneDelegate.swift */,
+				8D7F9DDB28A8EA470093B793 /* AppDelegate.swift */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		8DC3D6B028A8EEF1003AA7EB /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3D6B328A8EF7A003AA7EB /* EmployeeList */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		8DC3D6B128A8EF0E003AA7EB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8DC3D6B228A8EF1F003AA7EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8DC3D6B328A8EF7A003AA7EB /* EmployeeList */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3D6B428A8EF94003AA7EB /* Model */,
+				8D7F9DDF28A8EA470093B793 /* EmployeeListViewController.swift */,
+				8DC3D6BA28A8F15C003AA7EB /* EmployeeListViewModel.swift */,
+			);
+			path = EmployeeList;
+			sourceTree = "<group>";
+		};
+		8DC3D6B428A8EF94003AA7EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3D6B528A8EFB6003AA7EB /* Employees.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DC3D6B728A8F022003AA7EB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3D6B828A8F034003AA7EB /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,10 +210,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D7F9DE028A8EA470093B793 /* ViewController.swift in Sources */,
+				8D7F9DE028A8EA470093B793 /* EmployeeListViewController.swift in Sources */,
 				8D7F9DDC28A8EA470093B793 /* AppDelegate.swift in Sources */,
+				8DC3D6B628A8EFB6003AA7EB /* Employees.swift in Sources */,
 				8D7F9DDE28A8EA470093B793 /* SceneDelegate.swift in Sources */,
 				8D7F9DE628A8EA470093B793 /* Avito_Tech_iOS.xcdatamodeld in Sources */,
+				8DC3D6BB28A8F15C003AA7EB /* EmployeeListViewModel.swift in Sources */,
+				8DC3D6B928A8F034003AA7EB /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YBD3AD74KG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Avito-Tech-iOS/Info.plist";
+				INFOPLIST_FILE = "Avito-Tech-iOS/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -309,7 +385,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YBD3AD74KG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Avito-Tech-iOS/Info.plist";
+				INFOPLIST_FILE = "Avito-Tech-iOS/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
